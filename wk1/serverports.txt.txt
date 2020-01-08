@@ -1,0 +1,18 @@
+Server Port: A port number is an identification number that specifies a specific process currently ongoing between a program/application/process on the client computer and a server
+
+0 - 65535
+
+Server ports are 16-bit numbers
+
+Examples:
+
+20 - FTP
+23 - Telnet
+37 - Time
+80 - HTTP
+109 - POP2
+110 - POP3
+156 - SQL Server
+443 - HTTPS
+546 - DHCP Client
+569 - MSN
