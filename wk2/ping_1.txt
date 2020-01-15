@@ -1,0 +1,12 @@
+$ ping google.com -w 5
+
+>>PING google.com (172.217.164.206) 56(84) bytes of data.
+>>64 bytes from yyz12s04-in-f14.1e100.net (172.217.164.206): icmp_seq=1 ttl=58 time=2.25 ms
+>>64 bytes from yyz12s04-in-f14.1e100.net (172.217.164.206): icmp_seq=2 ttl=58 time=1.01 ms
+>>64 bytes from yyz12s04-in-f14.1e100.net (172.217.164.206): icmp_seq=3 ttl=58 time=0.940 ms
+>>64 bytes from yyz12s04-in-f14.1e100.net (172.217.164.206): icmp_seq=4 ttl=58 time=1.00 ms
+>>64 bytes from yyz12s04-in-f14.1e100.net (172.217.164.206): icmp_seq=5 ttl=58 time=0.948 ms
+>>
+>>--- google.com ping statistics ---
+>>5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+>>rtt min/avg/max/mdev = 0.940/1.234/2.257/0.512 ms

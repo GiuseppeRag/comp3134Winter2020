@@ -1,0 +1,12 @@
+$ ping 165.227.32.8
+
+>>Pinging 165.227.32.8 with 32 bytes of data:
+>>Reply from 165.227.32.8: bytes=32 time=5ms TTL=57
+>>Reply from 165.227.32.8: bytes=32 time=2ms TTL=57
+>>Reply from 165.227.32.8: bytes=32 time=4ms TTL=57
+>>Reply from 165.227.32.8: bytes=32 time=30ms TTL=57
+>>
+>>Ping statistics for 165.227.32.8:
+>>    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+>>Approximate round trip times in milli-seconds:
+>>    Minimum = 2ms, Maximum = 30ms, Average = 10ms
