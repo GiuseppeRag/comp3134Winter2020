@@ -1,0 +1,17 @@
+$ tcpdump -c 10 -i eth0 dst 165.227.32.8
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+19:08:01.490666 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 2762756493, win 8205, length 0
+19:08:01.491571 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 181, win 8204, length 0
+19:08:01.494972 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 337, win 8204, length 0
+19:08:01.496797 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 557, win 8203, length 0
+19:08:01.497082 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 705, win 8202, length 0
+19:08:01.499703 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 1109, win 8206, length 0
+19:08:01.502390 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 1257, win 8205, length 0
+19:08:01.505043 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 1441, win 8204, length 0
+19:08:01.508186 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 1625, win 8204, length 0
+19:08:01.510681 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 1809, win 8203, length 0
+10 packets captured
+10 packets received by filter
+0 packets dropped by kernel

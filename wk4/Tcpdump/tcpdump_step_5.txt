@@ -1,0 +1,61 @@
+$ tcpdump -XX -c 5 -i eth0
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:49:57.415264 IP lampDropletComp3134W2020.ssh > 198.96.84.204.54548: Flags [P.], seq 2762699993:2762700101, ack 1494583539, win 313, length 108
+        0x0000:  fe00 0000 0101 5203 6d55 51f6 0800 4510  ......R.mUQ...E.
+        0x0010:  0094 441d 4000 4006 151f a5e3 2008 c660  ..D.@.@........`
+        0x0020:  54cc 0016 d514 a4ab 74d9 5915 88f3 5018  T.......t.Y...P.
+        0x0030:  0139 e19e 0000 9e37 e792 a792 914a 7b4d  .9.....7.....J{M
+        0x0040:  6a4f 7448 a059 17bb e40f 233b c995 7c72  jOtH.Y....#;..|r
+        0x0050:  3821 320c cfa9 9679 5eb3 b156 0b34 ed20  8!2....y^..V.4..
+        0x0060:  0927 5946 f7da 8571 c5ea 0ce5 10c9 7997  .'YF...q......y.
+        0x0070:  0e72 d61b cd63 08fd 5a45 fa66 bff8 b22d  .r...c..ZE.f...-
+        0x0080:  bf29 6ce1 f532 ef68 c4f1 4e14 1905 2ffa  .)l..2.h..N.../.
+        0x0090:  52e5 b1e5 78b3 7da2 83e6 54b0 3b00 f0b9  R...x.}...T.;...
+        0x00a0:  6777                                     gw
+18:49:57.415424 IP lampDropletComp3134W2020.ssh > 198.96.84.204.54548: Flags [P.], seq 108:144, ack 1, win 313, length 36
+        0x0000:  fe00 0000 0101 5203 6d55 51f6 0800 4510  ......R.mUQ...E.
+        0x0010:  004c 441e 4000 4006 1566 a5e3 2008 c660  .LD.@.@..f.....`
+        0x0020:  54cc 0016 d514 a4ab 7545 5915 88f3 5018  T.......uEY...P.
+        0x0030:  0139 e156 0000 4b33 83a1 583f 9448 60bb  .9.V..K3..X?.H`.
+        0x0040:  1b65 6fa6 0150 9d5c d9dc a589 4c43 51b0  .eo..P.\....LCQ.
+        0x0050:  bb51 53d9 f78d 3a40 6c68                 .QS...:@lh
+18:49:57.415568 IP lampDropletComp3134W2020.ssh > 198.96.84.204.54548: Flags [P.], seq 144:252, ack 1, win 313, length 108
+        0x0000:  fe00 0000 0101 5203 6d55 51f6 0800 4510  ......R.mUQ...E.
+        0x0010:  0094 441f 4000 4006 151d a5e3 2008 c660  ..D.@.@........`
+        0x0020:  54cc 0016 d514 a4ab 7569 5915 88f3 5018  T.......uiY...P.
+        0x0030:  0139 e19e 0000 9800 ec50 c957 8424 b4bc  .9.......P.W.$..
+        0x0040:  9f79 6c20 88d1 d523 3810 1345 a8bc 409c  .yl....#8..E..@.
+        0x0050:  93cd a956 be0b b6c9 5948 6ab9 d176 f6b7  ...V....YHj..v..
+        0x0060:  07b6 688b 382a ca0c a505 9acc 0d04 a00b  ..h.8*..........
+        0x0070:  ffbf 150b 273b 000b 4cb7 a09c 7c81 e7d8  ....';..L...|...
+        0x0080:  7d48 bb37 75c9 3af9 32fe 70e2 f3ad 547f  }H.7u.:.2.p...T.
+        0x0090:  d659 3aa7 a4f0 5161 fe8b 2e6d edcd 1f53  .Y:...Qa...m...S
+        0x00a0:  52dd                                     R.
+18:49:57.415697 IP lampDropletComp3134W2020.ssh > 198.96.84.204.54548: Flags [P.], seq 252:288, ack 1, win 313, length 36
+        0x0000:  fe00 0000 0101 5203 6d55 51f6 0800 4510  ......R.mUQ...E.
+        0x0010:  004c 4420 4000 4006 1564 a5e3 2008 c660  .LD.@.@..d.....`
+        0x0020:  54cc 0016 d514 a4ab 75d5 5915 88f3 5018  T.......u.Y...P.
+        0x0030:  0139 e156 0000 f3ee af3d 7d85 50ad 144f  .9.V.....=}.P..O
+        0x0040:  a6ba 650f 3cd9 27e4 014e e606 f206 09e8  ..e.<.'..N......
+        0x0050:  d06e 5f75 2eee 2550 170e                 .n_u..%P..
+18:49:57.418257 IP lampDropletComp3134W2020.ssh > 198.96.84.204.54548: Flags [P.], seq 288:468, ack 1, win 313, length 180
+        0x0000:  fe00 0000 0101 5203 6d55 51f6 0800 4510  ......R.mUQ...E.
+        0x0010:  00dc 4421 4000 4006 14d3 a5e3 2008 c660  ..D!@.@........`
+        0x0020:  54cc 0016 d514 a4ab 75f9 5915 88f3 5018  T.......u.Y...P.
+        0x0030:  0139 e1e6 0000 bee1 f5e0 3744 37f8 ecff  .9........7D7...
+        0x0040:  b4e9 38c9 1528 061b 5db7 0235 84f3 980c  ..8..(..]..5....
+        0x0050:  143f 6a54 8eed c125 e44b bc74 3110 cc99  .?jT...%.K.t1...
+        0x0060:  0997 14d2 3daa ec21 ad97 1426 3c27 cd52  ....=..!...&<'.R
+        0x0070:  4703 378e c240 4a86 7dd5 4c37 390d f208  G.7..@J.}.L79...
+        0x0080:  c6df d71a 9cb7 452b 1023 0ebe f9a3 3fe8  ......E+.#....?.
+        0x0090:  809f 6d2a fa0f 8a65 20ec d1dc f1d3 fa48  ..m*...e.......H
+        0x00a0:  d384 10bc cc0d a5db c7e5 06f1 d70a 0936  ...............6
+        0x00b0:  cd05 0894 1222 6c9d 2823 0b8d 83e8 683c  ....."l.(#....h<
+        0x00c0:  7c7b 23da 32da 93e9 cf6f 77c7 242b db0c  |{#.2....ow.$+..
+        0x00d0:  73d5 329e 80b7 2a29 5eb4 22bd 72ba ca49  s.2...*)^.".r..I
+        0x00e0:  9ccc a578 34fe 422c 7a70                 ...x4.B,zp
+5 packets captured
+9 packets received by filter
+2 packets dropped by kernel

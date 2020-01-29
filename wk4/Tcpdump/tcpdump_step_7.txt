@@ -1,0 +1,13 @@
+$ tcpdump -r 0001.pcap
+
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+18:54:46.613845 IP lampDropletComp3134W2020.ssh > 198.96.84.204.54548: Flags [P.], seq 2762708453:2762708497, ack 1494584167, win 313, length 44
+18:54:46.613979 IP lampDropletComp3134W2020.ssh > 198.96.84.204.54548: Flags [P.], seq 44:152, ack 1, win 313, length 108
+18:54:46.614058 IP lampDropletComp3134W2020.ssh > 198.96.84.204.54548: Flags [P.], seq 152:188, ack 1, win 313, length 36
+18:54:46.620513 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 44, win 8203, length 0
+18:54:46.620844 IP 198.96.84.204.54548 > lampDropletComp3134W2020.ssh: Flags [.], ack 188, win 8203, length 0
+18:54:47.583267 IP 167.71.202.235.41830 > lampDropletComp3134W2020.ssh: Flags [S], seq 1907121137, win 64240, options [mss 1460,sackOK,TS val 94763340 ecr 0,nop,wscale 7], length 0
+18:54:47.583339 IP lampDropletComp3134W2020 > 167.71.202.235: ICMP lampDropletComp3134W2020 tcp port ssh unreachable, length 68
+18:54:50.464155 IP lampDropletComp3134W2020.ssh > 112.85.42.94.53254: Flags [P.], seq 1902117526:1902117567, ack 1900593303, win 227, options [nop,nop,TS val 4064655687 ecr 196470999], length 41
+18:54:54.051831 IP 157.245.111.175.51974 > lampDropletComp3134W2020.ssh: Flags [S], seq 629678283, win 29200, options [mss 1460,sackOK,TS val 404736245 ecr 0,nop,wscale 7], length 0
+18:54:54.051941 IP lampDropletComp3134W2020.ssh > 157.245.111.175.51974: Flags [S.], seq 3799237665, ack 629678284, win 28960, options [mss 1460,sackOK,TS val 2436903093 ecr 404736245,nop,wscale 7], length 0
