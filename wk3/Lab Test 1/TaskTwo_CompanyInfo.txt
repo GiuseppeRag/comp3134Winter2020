@@ -1,0 +1,22 @@
+Number Of Employees:
+70
+
+
+CEO:
+Jonas Mårtensson
+
+
+CFO:
+Karin Severinson
+
+
+President:
+Jonas Mårtensson
+
+
+Header Quarter Locations:
+Stockholm, Sweden
+
+
+Job Listing:
+(Located In a Seperate Document in the .zip File)

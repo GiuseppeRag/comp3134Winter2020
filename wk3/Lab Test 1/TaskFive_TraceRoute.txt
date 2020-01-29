@@ -1,0 +1,21 @@
+C:\Users\VALUED CUSTOMER>tracert mojang.com
+
+Tracing route to mojang.com [13.226.139.3]
+over a maximum of 30 hops:
+
+  1    11 ms    11 ms    11 ms  10.4.128.1
+  2    11 ms    11 ms    13 ms  198.96.85.3
+  3    21 ms    12 ms    12 ms  ut-hub-gbrownc-if-re.gtanet.ca [205.211.94.169]
+  4    12 ms    12 ms    12 ms  66.97.23.57
+  5    13 ms    13 ms    13 ms  66.97.16.22
+  6    12 ms    13 ms    12 ms  amazon-a.ip4.torontointernetxchange.net [206.108.35.36]
+  7    12 ms    16 ms    12 ms  52.93.3.116
+  8    13 ms    12 ms    13 ms  150.222.79.65
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14    12 ms    12 ms    12 ms  server-13-226-139-3.yto50.r.cloudfront.net [13.226.139.3]
+
+Trace complete.

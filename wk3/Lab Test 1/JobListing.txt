@@ -1,0 +1,51 @@
+Job Listing:
+
+Senior Minecraft Design System Engineer
+Stockholm
+
+At Mojang, we create games, products and services to inspire creativity. We develop games with a strong community focus and put players first 
+in everything we do. Our games are built for everyone, because we believe in demonstrating equality and not just talking about it.
+
+As a Minecraft Design System Engineer at Mojang, you will be part of our Core UI team, a cross-disciplinary group within Mojang. Core UI 
+have the mission to build a design system which will enable a recognizable, engaging and coherent user experience across the Minecraft 
+ecosystem.
+
+To achieve this mission we are leveraging open standards from the web and open source libraries such as React, on a scale that hasn’t been 
+done before in the gaming industry. There are a lot of challenges; such as performance, dynamic UI scaling, gamepad interactions, 
+sound effects, accessibility, and platforms to support (Minecraft runs on Android, iOS, Xbox and Switch for example) that are not the usual 
+run-of-the-mill web development. 
+
+You will have a great impact building the tools and libraries that are going to move the gaming industry from custom, in-house UI frameworks 
+to a solution based on open-standards. We expect to be contributing to the community with open-source projects that are going to help content 
+creators and other peers in our industry to join this revolution.
+
+This is a great opportunity for someone who wants to liaise with developers, designers, producers, and artists to implement new components of 
+the design system and thereby, create new experiences for Minecraft! 
+
+To help us overcome these challenges, you need 
+
+Broad experience, with a depth in front-end development
+Experience building a design system/component library
+Proven experience architecting and developing rich client applications
+Proficiency with React or similar (e.g. vue.js)
+To succeed in this role we see that you collaborate well, always have the organization’s best interest in mind and are comfortable making 
+decisions. We see that you are a great communicator, since you will support and onboard other developers, give constructive feedback and 
+present the teams work to other teams on a regular basis. For this position, it is crucial that you can combine a holistic view with an 
+analytical mindset, meaning breaking the code down to its details and how it will affect the user experience. 
+
+Do you want to be a part of breaking new grounds in the gaming industry? Then we would love to talk to you! 
+
+Studio location: Stockholm
+Reports to: Tech Lead
+Employment type: Fulltime
+
+Mojang is a Microsoft-owned game developer studio based in Stockholm, Sweden. We are best known as the creators of Minecraft, and are 
+currently working on several new games, a movie, a board game, and lots more – all within the Minecraft franchise.
+
+To help us create amazing things, we have built an equally amazing studio space. Situated right on the water by Söder Mälarstrand, it’s 
+filled to the brim with all the tools, toys and inspiration required to create world-class entertainment. But of course, the people of Mojang 
+are what makes this place truly special. When you join, you’ll find yourself in the company of incredibly bright, warm, and creative 
+individuals – all united and working toward a single goal. Come help us achieve it!
+
+Mojang strives to be a diverse and inclusive studio and if you think this job sounds like your passion, you are more than welcome to apply, 
+no matter who you are or where you are from.

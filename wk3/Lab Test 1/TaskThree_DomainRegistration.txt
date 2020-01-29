@@ -1,0 +1,33 @@
+Domain Registration:
+
+Domain Name: MOJANG.COM
+Registry Domain ID: 101582177_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.tucows.com
+Registrar URL: http://www.tucows.com
+Updated Date: 2019-08-03T08:37:51Z
+Creation Date: 2003-08-04T21:02:40Z
+Registry Expiry Date: 2020-08-04T21:02:40Z
+Registrar: Tucows Domains Inc.
+Registrar IANA ID: 69
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone:
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Name Server: NS-1297.AWSDNS-34.ORG
+Name Server: NS-1789.AWSDNS-31.CO.UK
+Name Server: NS-434.AWSDNS-54.COM
+Name Server: NS-625.AWSDNS-14.NET
+DNSSEC: unsigned
+
+
+
+Hosting Information:
+
+mojang.com is hosted on Amazon Technologies Inc.
+Datacenter: AWS CloudFront (GLOBAL)
+Server IP: 13.249.44.34
+Location: United States of America
+City: Washington
+Domain Who Is: Click Here
+Nameservers: ns-625.awsdns-14.net, ns-1297.awsdns-34.org, ns-434.awsdns-54.com, ns-1789.awsdns-31.co.uk
+Reverse DNS of the IP: server-13-249-44-34.iad89.r.cloudfront.netHosting Information:

@@ -1,0 +1,142 @@
+TCP: *NOT OPEN*
+$nmap -p 20 mojang.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 17:33 UTC
+Nmap scan report for mojang.com (99.86.58.73)
+Host is up (0.0016s latency).
+Other addresses for mojang.com (not scanned): 99.86.58.49 99.86.58.42 99.86.58.35
+rDNS record for 99.86.58.73: server-99-86-58-73.yto50.r.cloudfront.net
+
+PORT   STATE    SERVICE
+20/tcp filtered ftp-data
+
+Nmap done: 1 IP address (1 host up) scanned in 0.53 seconds
+
+
+
+
+SSH: *NOT OPEN*
+$nmap -p 22 mojang.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 17:36 UTC
+Nmap scan report for mojang.com (99.86.58.42)
+Host is up (0.0014s latency).
+Other addresses for mojang.com (not scanned): 99.86.58.49 99.86.58.35 99.86.58.73
+rDNS record for 99.86.58.42: server-99-86-58-42.yto50.r.cloudfront.net
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.58 seconds
+
+
+
+Telnet: *NOT OPEN*
+$nmap -p 23 mojang.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 17:37 UTC
+Nmap scan report for mojang.com (99.86.58.73)
+Host is up (0.0015s latency).
+Other addresses for mojang.com (not scanned): 99.86.58.35 99.86.58.49 99.86.58.42
+rDNS record for 99.86.58.73: server-99-86-58-73.yto50.r.cloudfront.net
+
+PORT   STATE    SERVICE
+23/tcp filtered telnet
+
+Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds
+
+
+
+SMTP: *NOT OPEN*
+$nmap -p 25 mojang.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 17:41 UTC
+Nmap scan report for mojang.com (13.226.139.73)
+Host is up (0.0015s latency).
+Other addresses for mojang.com (not scanned): 13.226.139.3 13.226.139.115 13.226.139.94
+rDNS record for 13.226.139.73: server-13-226-139-73.yto50.r.cloudfront.net
+
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+
+
+
+DNS:*NOT OPEN*
+$nmap -p 53 mojang.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 17:42 UTC
+Nmap scan report for mojang.com (13.226.139.94)
+Host is up (0.0012s latency).
+Other addresses for mojang.com (not scanned): 13.226.139.73 13.226.139.115 13.226.139.3
+rDNS record for 13.226.139.94: server-13-226-139-94.yto50.r.cloudfront.net
+
+PORT   STATE    SERVICE
+53/tcp filtered domain
+
+Nmap done: 1 IP address (1 host up) scanned in 0.54 seconds
+
+
+
+HTTP: *OPEN*
+$nmap -p 80 mojang.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 17:43 UTC
+Nmap scan report for mojang.com (13.226.139.94)
+Host is up (0.0013s latency).
+Other addresses for mojang.com (not scanned): 13.226.139.73 13.226.139.115 13.226.139.3
+rDNS record for 13.226.139.94: server-13-226-139-94.yto50.r.cloudfront.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+
+
+
+POP3: *NOT OPEN*
+$nmap -p 110 mojang.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 17:44 UTC
+Nmap scan report for mojang.com (13.226.139.3)
+Host is up (0.0013s latency).
+Other addresses for mojang.com (not scanned): 13.226.139.115 13.226.139.73 13.226.139.94
+rDNS record for 13.226.139.3: server-13-226-139-3.yto50.r.cloudfront.net
+
+PORT    STATE    SERVICE
+110/tcp filtered pop3
+
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+
+
+
+IMAP: *NOT OPEN*
+$nmap -p 993 mojang.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 17:44 UTC
+Nmap scan report for mojang.com (13.226.139.94)
+Host is up (0.0016s latency).
+Other addresses for mojang.com (not scanned): 13.226.139.73 13.226.139.115 13.226.139.3
+rDNS record for 13.226.139.94: server-13-226-139-94.yto50.r.cloudfront.net
+
+PORT    STATE    SERVICE
+993/tcp filtered imaps
+
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+
+
+
+MySQL: *NOT OPEN*
+$nmap -p 3306 mojang.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 17:45 UTC
+Nmap scan report for mojang.com (13.226.139.3)
+Host is up (0.0018s latency).
+Other addresses for mojang.com (not scanned): 13.226.139.115 13.226.139.73 13.226.139.94
+rDNS record for 13.226.139.3: server-13-226-139-3.yto50.r.cloudfront.net
+
+PORT     STATE    SERVICE
+3306/tcp filtered mysql
+
+Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds
