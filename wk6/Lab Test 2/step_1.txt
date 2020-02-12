@@ -1,0 +1,29 @@
+$ tcpdump -c 3 -i eth0 tcp
+
+
+>>tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+>>listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+>>17:30:21.237539 IP lampDropletComp3134W2020.ssh > 198.96.84.204.30301: Flags [P.], seq 649018922:649019030, ack 427928407, win 313, length 108
+>>17:30:21.237638 IP lampDropletComp3134W2020.ssh > 198.96.84.204.30301: Flags [P.], seq 108:144, ack 1, win 313, length 36
+>>17:30:21.237731 IP lampDropletComp3134W2020.ssh > 198.96.84.204.30301: Flags [P.], seq 144:252, ack 1, win 313, length 108
+>>3 packets captured
+>>9 packets received by filter
+>>0 packets dropped by kernel
+
+Packet 1:
+Source Host: lampDropletComp3134W2020
+Source Port: 22 (Source is connected through .ssh, which runs on port 22) 
+Destination Host: 198.96.84.204
+Destination Port: 30301
+
+Packet 2:
+Source Host: lampDropletComp3134W2020
+Source Port: 22 (Source is connected through .ssh, which runs on port 22) 
+Destination Host: 198.96.84.204
+Destination Port: 30301
+
+Packet 3:
+Source Host: lampDropletComp3134W2020
+Source Port: 22 (Source is connected through .ssh, which runs on port 22) 
+Destination Host: 198.96.84.204
+Destination Port: 30301
