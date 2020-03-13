@@ -1,0 +1,7 @@
+What is currently displayed on the Browser in step_d-3.png, is error claiming that there is no file called "hello" within the directory, and as
+such is not able to access it.
+
+The senstive information given by this page is the absolute root of the file being executed: /var/www/html/directory_traversal_part1.php. The
+reason this is an issue is because the attacker with this information is now aware of names directories stored within the web root, and using
+the '../' character or the names of the directories, can backtrack into the more hidden directories of the web server
+

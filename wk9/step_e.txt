@@ -1,0 +1,12 @@
+basename() works by reading the path given to it, and outputing the path on a relative level. What this means that it only focuses on its own 
+folder and the files inside of it. It has no knowledge of any files located outside the folder, and does not recognize diretory traversal 
+characters such as '../'. To use this function effective, the best use it to put it inside the scandir() function, and wrapping ir around the 
+$path variable: ( scandir(basename($path, '.')) ). What this will do is prevent scandir() from reading the directories outside of its current 
+one, since basename() does not display any information about the directories beyond the path given to it. This protects the senstive files 
+located outside of /html.
+
+file_exists() returns a boolean of True or False, which is depending on whether the path given to it actually exists. We can use this function
+as a way of error handling the application, since we can force it to do 2 different things depending on whether the function returns True or False.
+To use this effectively, it is best to use an if statement that runs this function first and reads the result. If it returns true, we can perform
+the normal functions. If it returns false however, we will use a different path for scandir() to return, which will be '.', since it is the
+path to the current directory. 

@@ -1,0 +1,5 @@
+The current browser from step_d-4 displays a list of all the directorys and files located within one of the droplets root folders: /var.
+
+The sensitive information displayed is all the names of the directories location within the directory, which the attacker is now able to access
+since he now has the names of these sensitive directories, such as the logs or the cache directories, and can traverse them using the query string that accesses the /var file in the first
+place

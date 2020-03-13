@@ -1,0 +1,5 @@
+In order to prevent comments in the source code, I will do 2 things to the comments:
+- The first thing is to turn the comments in PHP comments instead of HTML. This is because HTML comments, while not processed, are
+still rendered by the browser. PHP comments however, are ignored entirely by the browser.
+- The second thing is to remove any personal information from the comments, since you cannot read data from data that is not there. In my case,
+the employee ID will be removed

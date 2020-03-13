@@ -1,0 +1,4 @@
+The browser currently displays the contents of the /www web root folder.
+
+The sensitive information displayed is the 'html' folder, which holds the web pages the droplet is able to load. An attacker that has access to
+this folder would be able to access all the web pages and their contents, which may yeild even more sensitive information
