@@ -1,0 +1,19 @@
+Observation 1)
+Typing a valid english word in the form caused the website to load a page related to the typed word. The URL of the website also changed, 
+as it now contains the word that was typed into the form search bar. This means the website uses GET requests.
+
+Observation 2)
+Typing an Invalid English Word into the URL after '/browse' caused to website to load a 'No result found' page. More importantly, the URL also
+changed, as instead of 'browse/' as part of the path, it changed to '/misspelling'. This means that the website had automatically redirected
+the request to this page using a URL query validator, in order to prevent a possible 404 message.
+
+Observation 3)
+Typing the script into the form of the website caused the website to render a page in a slightly unexpected way. Instead of return a 'No
+result found' page, it instead replied with 'results for <script>alert(%27hello%27)</script>:', but did not proceed to display any information
+related. However, The URL changed again, this time redirecting us to a '/noresult' path, with the script as the term. This means that the
+website uses this page to display whenever non-words are inputted into the search form
+
+Observation 4)
+Typing the Script into the URL yeilded very similar results to the previous Observation, where the webpage attempted to display results for
+the script, but did not display any information afterwards. The URL of the website remained the same as well, leading us to a '/noresult' path
+with the script as the search term.

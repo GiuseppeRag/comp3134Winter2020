@@ -1,0 +1,13 @@
+1) curl https://www.dictionary.com/browse/curl
+or
+curl https://www.dictionary.com/misspelling?term=curl (this redirects you to previous URL)
+
+2) curl https://www.dictionary.com/misspelling?term=curlxyz
+or
+curl https://www.dictionary.com/browse/curlxyz (this redirects you to previous URL)
+
+3)curl http://165.227.32.8/sending_info_to_app_1.php?q=helloworld
+
+4)curl http://165.227.32.8/sending_info_to_app_1.php?q="<script>document.write('overwrite_everything')</script>"
+
+5)curl http://165.227.32.8/sending_info_to_app_2.php?q="<script>document.write('overwrite_everything')</script>"
