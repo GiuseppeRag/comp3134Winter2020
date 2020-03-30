@@ -1,0 +1,5 @@
+The issue with the storexss.php file is that when accessed, its reads the contents of the storedxss.txt file, which contains code for a script.
+Because the file is unfiltered and outputted directly, this script is executed immediatly upon accessing the webpage. This results in a redirect
+of the web browser to a different website, in this case, directory_traversal_part_1.php.
+
+To prevent this, the storedxss.txt file needs to be sanitised so that is does not execute any unwanted scripts
