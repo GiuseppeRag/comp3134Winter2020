@@ -1,0 +1,13 @@
+<h1>Reflected XSS</h1>
+<form id="myForm">
+        <input type="text" name="textData" id="textData" placeholder="Input data" />
+        <button type="submit" id="submitButton">Submit</button>
+</form>
+<div id="displayData">
+</div>
+<script>
+        document.getElementById("submitButton").addEventListener("click", function(event) {
+                event.preventDefault();
+                document.getElementById("displayData").innerHTML = document.getElementById("textData").value;
+        });
+</script>
