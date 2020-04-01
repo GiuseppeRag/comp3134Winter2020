@@ -1,0 +1,2 @@
+command:
+curl -i -X GET https://www.reddit.com/search/?q=information

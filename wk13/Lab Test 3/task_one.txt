@@ -1,0 +1,20 @@
+domain: https://www.minecraft.net/en-us/
+
+Comment One: 
+<!-- SDI include (path: /content/minecraft-net/language-masters/en-us/_jcr_content/root/cookie_compliance.nocache.html, 
+resourceType: minecraft/components/content/cookie-compliance) -->
+
+Comment Two:
+<!-- SDI include (path: /content/minecraft-net/language-masters/en-us/_jcr_content/root/generic-container/par/
+bleeding_page_sectio_964053443/page-section-par/experiencefragmentre.nocache.html, 
+resourceType: minecraft/components/content/experiencefragmentrenderer) -->
+
+Comment Three:
+<!-- SDI include (path: /content/minecraft-net/language-masters/en-us/_jcr_content/root/generic-container/par/
+bleeding_page_sectio/page-section-par/experiencefragmentre.nocache.html, 
+resourceType: minecraft/components/content/experiencefragmentrenderer) -->
+
+Comment Four:
+<!-- SDI include (path: /content/minecraft-net/language-masters/en-us/_jcr_content/root/generic-container/par/
+bleeding_page_sectio_1278766118/page-section-par/experiencefragmentre_1447242922.nocache.html, 
+resourceType: minecraft/components/content/experiencefragmentrenderer) -->

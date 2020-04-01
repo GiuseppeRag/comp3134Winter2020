@@ -1,0 +1,6 @@
+Domain: youtube.com
+
+Name: SID
+Content: vQeAP34f3P_jPPfSynX57OsHD5uKPVl3iUgInaLN2XK5qEn6hJ28zX-cSQdp0XJ3xlOOQA.
+Path: /
+Domain: youtube.com

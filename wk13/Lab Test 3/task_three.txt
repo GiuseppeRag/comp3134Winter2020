@@ -1,0 +1,10 @@
+domain: https://www.dictionary.com/
+
+hidden fields:
+<input type="hidden" name="list" value="WOTD">
+
+<input type="hidden" name="list" value="WOTD"> (appeared twice)
+
+form method:
+<form action="#" role="search" class="css-11100va-StyledForm e18h4a052">
+because a method is not specified, the default is GET
