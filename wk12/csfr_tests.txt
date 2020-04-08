@@ -1,0 +1,13 @@
+When using csfr.html, what happened was that form data was automatically submitted to csfr.php, and the data submitted bypassed
+the submission form to login. As a result, csfr.php rendered a splash div with the message "Login Success!". This meant that
+the code in csfr.html was successfully able to perform a cross site forgery request, and maliciously log into the website using
+sensitive data, while bypassing the login page.
+
+When using csfr_form.php, the data in the form was automatically sent to csfr_action.php along with a session variable named
+'confirmation'. Like csfr.html did, it was able to bypass the original login form, and automatically validate the data passed
+with the request. However (based on my code), instead of rendering a 'Login Success!' message like csfr.php did, the page
+instead rendered a 'Your session is invalid! You cannot access this page!'. The reason why it displayed this message is because
+the session variable 'confirmation' coming from csfr_form.php, did not match the 'confirmation' variable located in the
+csfr_action.php file. The webpage detected this mismatch of data, and did not allow the request to successfully login in. This means
+that csfr_action.php was able to counteract the Cross Site Forgery Request from csfr_forms.php, and prevent it from accessing the
+successful login page. 

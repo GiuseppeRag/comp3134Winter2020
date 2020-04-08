@@ -1,0 +1,34 @@
+<?php
+$confirmation;
+if(isset($_SESSION['confirmation'])) {
+        $confirmation = $_SESSION['confirmation'];
+}
+else {
+        session_start();
+        $_SESSION['confirmation'] = session_id();
+        $confirmation = session_id();
+}
+if (isset($_POST['username']) && isset($_POST['password'])){
+        if (isset($_POST['confirmation']) && ($_POST['confirmation'] == $confirmation)){
+                $username = $_POST['username'];
+                $password = $_POST['password'];
+                if ($username == "host" && $password == "pass") {
+                        print('<div>Login Success!</div>');
+                }
+                else {
+                        print('<div>Login Failure!</div>');
+                }
+        }
+        else {
+                print('<div>Your session is invalid! You cannot access this page!</div>');
+        }
+}
+else {
+        echo "<form method='post'>
+        <p>Username: <input type='text' name='username' placeholder='username' /></p>
+        <p>Password: <input type='password' name='password' placeholder='password' /></p>
+        <input type='hidden' name='confirmation' value=$confirmation />
+        <input type='submit'>
+        </form>" ;
+}
+?>
