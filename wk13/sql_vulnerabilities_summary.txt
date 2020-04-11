@@ -1,0 +1,15 @@
+Scenario 1)
+When typing "Ben" into the form, the table reloaded to show no data. This is an expected result, as the query only returns data
+that matches the first name AND has the 'active' column set to 1. While the database has a record with the first name 'Ben', the
+active column for that record is 0, and therefore does not meet the search requirements.
+
+Scenario 2)
+When typing "Ben'-- " into, the table returned a single Row, containing the data for the record with the first name 'Ben'. This is
+an unexpected result, because the record has an 'active' value of 0, and therefore should not meet the search requirements for the query.
+This means the input value was able to break the query, and allow it to return records that should not normally return.
+
+Scenario 3)
+When typing "Ben' or 1=1", the table returned all results that equalled that had an active value of 1. This is an unexpected result, however
+it is because the record with the name 'Ben' did not display, unlike how it did in the previous Scenario. This is most likely 
+because the part of the query that evaluted 'active = 1' was not ignored by the query, unlike the query in Scenario 2 that did 
+ignore it. While the record may have returned the 'intended' results, the query is still vulnerable to these kinds of attacks.
